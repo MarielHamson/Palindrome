@@ -4,19 +4,7 @@ namespace Palindromes
 {
   public class Palindrome
   {
-    // public string Word { get; set; }
-    // public string ReverseWord { get; set; }
-    // public Palindrome(string word)
-    // {
-    //   Word = word;
-    //   ReverseWord = "";
-    // }
-    // public bool IsArray()
-    // {
-    //   string[] WordArray = this.Word.Split();
-    //   return WordArray is string[];
-    // }
-    public bool IsPalindrome(string Word) // "mom"
+    public bool IsPalindrome(string Word)
     {
       string[] WordArray = Word.Split();
       string[] ReverseArray = Word.Split();
