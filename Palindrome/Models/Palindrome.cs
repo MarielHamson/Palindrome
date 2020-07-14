@@ -19,7 +19,7 @@ namespace Palindromes
     public bool IsPalindrome(string Word)
     {
       string[] WordArray = Word.Split();
-      return false;
+      return WordArray is string[];
     }
   }
 }
