@@ -6,7 +6,8 @@ namespace Palindromes
   {
     public bool IsPalindrome(string word)
     {
-      return false;
+      return word is string;
     }
   }
 }
+

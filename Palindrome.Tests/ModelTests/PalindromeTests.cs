@@ -12,7 +12,12 @@ namespace Palindromes.Tests
       Palindrome testString = new Palindrome();
       Assert.AreEqual(true, testString.IsPalindrome("apple"));
     }
-  }
+
+    [TestMethod]
+    {
+      
+    }
+}
 }
 
 
