@@ -14,10 +14,10 @@ namespace Palindromes.Tests
     // }
 
     [TestMethod]
-    public void IsPalindrome_ReturnArray_True()
+    public void IsArray_ReturnArray_True()
     {
-      Palindrome testString = new Palindrome("apple");
-      Assert.AreEqual(true, testString.IsPalindrome());
+      Palindrome testString = new Palindrome();
+      Assert.AreEqual(true, testString.IsPalindrome("apple"));
     }
   }
 }
