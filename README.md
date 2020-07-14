@@ -1,21 +1,21 @@
-# _Project Name_
+# _Palindrome Checker_
 
-#### _Short Description, Date_
+#### _App that checks if a string is a palindrome, 7.14.2020_
 
-#### By _**Mariel Hamson**_
+#### By _**Mariel Hamson and Jeff Kim**_
 
 ## Description
 
-This is an app that ...
+This is an app that takes a string of characters and determines whether the string is the same if reversed, making it a palindrome.
 
 ## Specs
 
-| Behavior | Input | Output | Completed(Y/N?) |
-| -------- | ----- | ------ | --------------- |
-| ...      | .     | .      | .               |
-| ...      | .     | .      | .               |
-| ...      | .     | .      | .               |
-| ...      | .     | .      | .               |
+| Behavior                                        | Input                                    | Output                                            | Completed(Y/N?) |
+| ----------------------------------------------- | ---------------------------------------- | ------------------------------------------------- | --------------- |
+| Take a string and return a split array          | "Apple"                                  | str[] myArray{ "A", "p", "p", "l", "e" }          | N               |
+| Reverse array and store in new array            | str[] myArray{ "A", "p", "p", "l", "e" } | str[] myReversedArray { "e", "l", "p", "p", "a" } | N               |
+| Compare myReversedArray to myArray using a loop | myReversedArray == myArray               | True                                              | N               |
+| ...                                             | .                                        | .                                                 | .               |
 
 ## Setup/Installation Requirements
 
