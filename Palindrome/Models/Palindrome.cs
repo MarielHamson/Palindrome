@@ -33,7 +33,7 @@ namespace Palindromes
 
       if (MatchingLetterCount == ReverseArray.Length)
       {
-        return false;
+        return true;
       }
       else
       {
