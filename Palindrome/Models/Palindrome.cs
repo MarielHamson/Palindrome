@@ -15,7 +15,7 @@ namespace Palindromes
     {
       // return this.Word is string;
       string[] wordArray = this.Word.Split();
-      return false;
+      return wordArray is string[];
     }
   }
 }
