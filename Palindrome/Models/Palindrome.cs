@@ -4,9 +4,16 @@ namespace Palindromes
 {
   public class Palindrome
   {
-    public bool IsPalindrome(string word)
+    public string Word { get; set; }
+    public string ReverseWord { get; set; }
+    public Palindrome(string word)
     {
-      return word is string;
+      Word = word;
+      ReverseWord = "";
+    }
+    public bool IsPalindrome()
+    {
+      return this.Word is string;
     }
   }
 }
