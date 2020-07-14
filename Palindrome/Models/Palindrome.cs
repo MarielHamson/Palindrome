@@ -16,13 +16,29 @@ namespace Palindromes
     //   string[] WordArray = this.Word.Split();
     //   return WordArray is string[];
     // }
-    public bool IsPalindrome(string Word)
+    public bool IsPalindrome(string Word) // "mom"
     {
       string[] WordArray = Word.Split();
-      return WordArray is string[];
+      string[] ReverseArray = Word.Split();
+      Array.Reverse(ReverseArray);
+      int MatchingLetterCount = 0;
+
+      for (int index = 0; index < ReverseArray.Length; index++)
+      {
+        if (ReverseArray[index] == WordArray[index])
+        {
+          MatchingLetterCount++;
+        }
+      }
+
+      if (MatchingLetterCount == ReverseArray.Length)
+      {
+        return false;
+      }
+      else
+      {
+        return false;
+      }
     }
   }
 }
-
-// Assert.AreEqual(28, _actualFuel); // Tests whether the specified values are equal. 
-// Assert.IsInstanceOfType(_actualRocket, typeof(Falcon9Rocket)); // Tests whether the specified object is an instance of the expected type
