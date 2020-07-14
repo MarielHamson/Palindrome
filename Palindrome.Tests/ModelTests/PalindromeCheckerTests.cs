@@ -1,7 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ProjectName;
+using PalindromeChecker;
 
-namespace ProjectName.Tests
+namespace Palindrome.Tests
 {
   [TestClass]
   public class ClassNameTests

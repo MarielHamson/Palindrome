@@ -1,6 +1,6 @@
-namespace ProjectName
+namespace Palindrome
 {
-  public class ClassName
+  public class PalindromeChecker
   {
     // properties, constructors, methods, etc. go here
   }
