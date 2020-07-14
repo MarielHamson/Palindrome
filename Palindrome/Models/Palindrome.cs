@@ -13,8 +13,9 @@ namespace Palindromes
     }
     public bool IsPalindrome()
     {
-      return this.Word is string;
+      // return this.Word is string;
+      string[] wordArray = this.Word.Split();
+      return false;
     }
   }
 }
-
