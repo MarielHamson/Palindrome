@@ -12,27 +12,23 @@ This is an app that takes a string of characters and determines whether the stri
 
 | Behavior                                        | Input                                    | Output                                            | Completed(Y/N?) |
 | ----------------------------------------------- | ---------------------------------------- | ------------------------------------------------- | --------------- |
-| Take a string and return a split array          | "Apple"                                  | str[] myArray{ "A", "p", "p", "l", "e" }          | N               |
-| Reverse array and store in new array            | str[] myArray{ "A", "p", "p", "l", "e" } | str[] myReversedArray { "e", "l", "p", "p", "a" } | N               |
-| Compare myReversedArray to myArray using a loop | myReversedArray == myArray               | True                                              | N               |
-| ...                                             | .                                        | .                                                 | .               |
+| Take a string and return a split array          | "Apple"                                  | str[] myArray{ "A", "p", "p", "l", "e" }          | Y               |
+| Reverse array and store in new array            | str[] myArray{ "A", "p", "p", "l", "e" } | str[] myReversedArray { "e", "l", "p", "p", "a" } | Y               |
+| Compare myReversedArray to myArray using a loop | myReversedArray == myArray               | True                                              | Y               |
 
 ## Setup/Installation Requirements
 
-### Obtaining API Key
+Clone repository from GitHub: https://github.com/MarielHamson/Palindrome.git
 
-- In order to use this app, you must obtain an API key from https://www.exchangerate-api.com/. On the homepage, enter your email address and click "Get Free Key"
-- Enter your name and create a password in order to see the API key. Hold on to the key as you will need to enter it in the next step
+**Requires .NET, `dotnet script` installed:**
 
-### Clone from GitHub and Run app via NPM
+_Download the .NET Core SDK and install_
 
-- First, ensure you have node.js and NPM installed
-- Navigate to: www.github.com/marielhamson/currency-exchange
-- Find the "Code" button and either download the .zip or use the .git filename to clone the repository on your command line into the desired location ("git clone https://github.com/MarielHamson/currency-exchange.git)
-- Open the project in your code editor of choice
-- Add a file in the root directory called ".env"
-- Add the following line to the file: API_KEY= {insert your API key here}
-- run npm install _and then_ npm start to see the app on a live server
+_Install `dotnet script` using the command `dotnet tool install -g dotnet-script`_
+
+_Run `dotnet restore` to get testing framework_
+
+_Run `dotnet build` and `dotnet run`_
 
 ## Known Bugs
 
@@ -50,4 +46,4 @@ _C#, .NET, MSTest_
 
 _MIT License_
 
-Copyright (c) 2020 **_Mariel Hamson_**
+Copyright (c) 2020 **_Mariel Hamson and Jeff Kim_**
